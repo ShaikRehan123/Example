@@ -9,7 +9,7 @@ app.get("/", (request, response) => {
   response.redirect("/gadgets");
 });
 app.listen(3000, () => {
-  console.log("Listening On Port 2000");
+  console.log("Listening On Port 3000");
 });
 
 module.exports = app;
